@@ -10,7 +10,8 @@ export GO111MODULE=on
 
 TARGET := onos-mho
 TARGET_TEST := onos-mho-test
-DOCKER_TAG ?= latestONOS_PROTOC_VERSION := v0.6.6
+DOCKER_TAG ?= latest
+ONOS_PROTOC_VERSION := v0.6.6
 BUF_VERSION := 0.27.1
 
 build: # @HELP build the Go binaries and run all validations (default)
